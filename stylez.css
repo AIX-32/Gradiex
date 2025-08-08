@@ -19,6 +19,7 @@
     flex-wrap: wrap;
     gap: 12px;
     justify-content: center;
+    width: 100%;
     margin-bottom: 20px;
     background: rgba(255, 255, 255, 0.05);
     padding: 16px 24px;
@@ -141,8 +142,8 @@
   }
 
   input[type="checkbox"] {
--webkit-appearance: none; /* Safari & Chrome */
--moz-appearance: none; /* Firefox */
+-webkit-appearance: none; 
+-moz-appearance: none; 
 appearance: none;
 width: 20px;
 height: 20px;
@@ -157,7 +158,6 @@ input[type="checkbox"]:checked {
 background: #373737;
 }
 
-/* Add your own checkmark */
 input[type="checkbox"]:checked::after {
 content: "";
 position: absolute;
