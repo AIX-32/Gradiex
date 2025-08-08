@@ -60,4 +60,8 @@ function spawnCircle(e) {
 function clearCircles() {
   const circles = box.querySelectorAll('.circle');
   circles.forEach(c => c.remove());
+} 
+
+function bruh() {
+  alert("Just take a screenshot my dum ass cant make this work");
 }
